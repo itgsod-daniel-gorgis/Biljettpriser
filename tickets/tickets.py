@@ -5,14 +5,21 @@ document your module here
 
 """
 
+
 #write your function here
-def example(argument,anotherparmeter):
+def calculate_price(age):
     """
 
-    :param argument:
-    :param anotherparmeter:
+    :param age:
     :return:
     """
+    if age < 18:
+        return '10 kr'
+
+    elif age > 65:
+        return '15 kr'
+
+    return '20 kr'
 
 
 
